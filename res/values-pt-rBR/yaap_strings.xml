@@ -396,12 +396,6 @@
     <!-- ETC category -->
     <string name="etc_category_title">ETC</string>
 
-    <!-- About YAAP -->
-    <string name="about_yaap_title">Sobre YAAP</string>
-    <string name="about_yaap_summary">Nossa equipe, código fonte, grupo do telegram e mais</string>
-
-    <!-- YASP Import -->
-
     <!-- Categories -->
     <string name="button_title">Botões</string>
     <string name="gestures_title">Gestos</string>

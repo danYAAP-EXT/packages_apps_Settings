@@ -58,24 +58,6 @@
             android:summary="@string/summary_placeholder"
             android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
             settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
-
-        <!-- About YAAP -->
-        <Preference
-            android:key="about_category"
-            android:order="8"
-            android:title="@string/about_yaap_title"
-            android:summary="@string/about_yaap_summary"
-            android:fragment="com.android.settings.deviceinfo.AboutYaap" />
-
-        <!-- Phone number -->
-        <Preference
-            android:key="phone_number"
-            android:order="10"
-            android:title="@string/status_number"
-            android:summary="@string/summary_placeholder"
-            settings:isPreferenceVisible="@bool/config_show_sim_info"
-            settings:controller="com.android.settings.deviceinfo.PhoneNumberPreferenceController"
-            settings:enableCopying="true"/>
     </PreferenceCategory>
 
     <PreferenceCategory

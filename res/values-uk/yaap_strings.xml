@@ -53,17 +53,6 @@
     <string name="prevent_ringing_option_cycle_summary">Увімк. (змінювати режими)</string>
     <string name="prevent_ringing_option_normal">Normal</string>
 
-    <!-- OTA App -->
-    <string name="update_settings_title">Оновлення YAAP</string>
-    <string name="update_settings_summary">Перевірити доступні оновлення прошивки</string>
-
-    <!-- YAAP Version -->
-    <string name="yaap_version">Версія YAAP</string>
-	
-    <!-- YAAP Changelog -->
-    <string name="yaap_changelog_title">Список змін</string>
-    <string name="yaap_changelog_summary">Показати список останніх змін і версію YAAP</string>
-
     <!-- QSTile requires unlocking before being accessible -->
     <string name="qstile_requires_unlocking_title">Важливі плитки в шторці вимагають розблокування</string>
     <string name="qstile_requires_unlocking_summary">Ці плитки будуть вимагати розблокування перед тим, як їх можна буде використовувати з блокуванням екрану:\nРежим польоту, Інтернет, Bluetooth, Економія трафіку, Режим енергозбереження, Автообертання, NFC, Точка доступу, USB-модем</string>
@@ -348,10 +337,6 @@
 
     <!-- ETC category -->
     <string name="etc_category_title">Інше</string>
-
-    <!-- About YAAP -->
-    <string name="about_yaap_title">Про YAAP</string>
-    <string name="about_yaap_summary">наша команда, відкритий код, група Telegram тощо</string>
 
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Дозволити клієнтам використовувати VPN</string>
