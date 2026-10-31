@@ -21,44 +21,6 @@
     android:title="@string/header_category_system">
 
     <PreferenceCategory
-        android:key="software_update_category"
-        android:title="@string/update_device_category_title"
-        android:order="-400">
-
-        <!-- System updates -->
-        <Preference
-            android:key="additional_system_update_settings"
-            android:title="@string/additional_system_update_settings_list_item_title"
-            settings:controller="com.android.settings.system.AdditionalSystemUpdatePreferenceController">
-            <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="@string/additional_system_update"
-                android:targetClass="@string/additional_system_update_menu"/>
-        </Preference>
-
-        <!-- <Preference
-            android:key="system_update_settings"
-            android:title="@string/system_update_settings_list_item_title"
-            android:summary="@string/summary_placeholder"
-            android:icon="@drawable/ic_system_update"
-            settings:keywords="@string/keywords_system_update_settings"
-            settings:controller="com.android.settings.system.SystemUpdatePreferenceController">
-            <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS"/>
-        </Preference> -->
-
-        <Preference
-            android:key="update_settings"
-            android:title="@string/update_settings_title"
-            android:summary="@string/update_settings_summary"
-            android:icon="@drawable/ic_system_update"
-            android:order="-58"
-            settings:controller="com.android.settings.system.UpdatePreferenceController">
-            <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="@string/update_package"
-                android:targetClass="@string/update_activity" />
-        </Preference>
-    </PreferenceCategory>
-
-    <PreferenceCategory
         android:key="languages_input_category"
         android:title="@string/language_settings"
         android:order="-390">
